@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>VEN</title>
-    <link rel="stylesheet" href="style.css?v=1.1">
+    <link rel="stylesheet" href="style.css?v=2.0">
 </head>
 
 <body>
@@ -21,11 +21,19 @@
     <!-- Precision Engineered Navigation -->
     <nav id="navbar">
         <div class="logo brand-font">VEN</div>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#collection">Collection</a></li>
-            <li><a href="#essence">The Essence</a></li>
-            <li><a href="#shop">Boutique</a></li>
+
+        <!-- Hamburger Button (Mobile Only) -->
+        <button class="hamburger" id="hamburger" aria-label="Toggle Menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <ul id="nav-menu">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#collection" class="nav-link">Collection</a></li>
+            <li><a href="#essence" class="nav-link">The Essence</a></li>
+            <li><a href="#shop" class="nav-link">Boutique</a></li>
         </ul>
     </nav>
 
